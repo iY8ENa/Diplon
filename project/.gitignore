@@ -1,0 +1,17 @@
+# Игнорируем временные и служебные файлы
+*.pyc
+__pycache__/
+*.log
+*.tmp
+*.bak
+
+# Игнорируем настройки IDE
+.vscode/
+.idea/
+
+# Игнорируем бинарные файлы
+chromedriver.exe
+geckodriver.exe
+screenshots/
+allure-results/
+report.html
